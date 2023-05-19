@@ -1,0 +1,11 @@
+framework module DemoTestFramework19 {
+  umbrella header "DemoTestFramework19.h"
+
+  export *
+  module * { export * }
+}
+
+module DemoTestFramework19.Swift {
+  header "DemoTestFramework19-Swift.h"
+  requires objc
+}

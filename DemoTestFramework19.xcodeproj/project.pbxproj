@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		F9A102652A170AEC00BB226C /* DemoTestFramework19.docc in Sources */ = {isa = PBXBuildFile; fileRef = F9A102642A170AEC00BB226C /* DemoTestFramework19.docc */; };
 		F9A102662A170AEC00BB226C /* DemoTestFramework19.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A102632A170AEC00BB226C /* DemoTestFramework19.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A1026D2A170C6F00BB226C /* ExampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1026C2A170C6F00BB226C /* ExampleClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9A102602A170AEC00BB226C /* DemoTestFramework19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DemoTestFramework19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A102632A170AEC00BB226C /* DemoTestFramework19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTestFramework19.h; sourceTree = "<group>"; };
 		F9A102642A170AEC00BB226C /* DemoTestFramework19.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DemoTestFramework19.docc; sourceTree = "<group>"; };
+		F9A1026C2A170C6F00BB226C /* ExampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 		F9A102622A170AEC00BB226C /* DemoTestFramework19 */ = {
 			isa = PBXGroup;
 			children = (
+				F9A1026C2A170C6F00BB226C /* ExampleClass.swift */,
 				F9A102632A170AEC00BB226C /* DemoTestFramework19.h */,
 				F9A102642A170AEC00BB226C /* DemoTestFramework19.docc */,
 			);
@@ -133,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9A102652A170AEC00BB226C /* DemoTestFramework19.docc in Sources */,
+				F9A1026D2A170C6F00BB226C /* ExampleClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +266,7 @@
 		F9A1026A2A170AEC00BB226C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -293,6 +298,7 @@
 		F9A1026B2A170AEC00BB226C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

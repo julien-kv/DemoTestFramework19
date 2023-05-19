@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DemoTestFramework19",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExampleClass",
+        "printedName": "ExampleClass",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExampleClass",
+                "printedName": "DemoTestFramework19.ExampleClass",
+                "usr": "s:19DemoTestFramework1912ExampleClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19DemoTestFramework1912ExampleClassCACycfc",
+            "mangledName": "$s19DemoTestFramework1912ExampleClassCACycfc",
+            "moduleName": "DemoTestFramework19",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19DemoTestFramework1912ExampleClassC10getMessageyyF",
+            "mangledName": "$s19DemoTestFramework1912ExampleClassC10getMessageyyF",
+            "moduleName": "DemoTestFramework19",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19DemoTestFramework1912ExampleClassC",
+        "mangledName": "$s19DemoTestFramework1912ExampleClassC",
+        "moduleName": "DemoTestFramework19",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/julien\/Desktop\/Cocopods try\/DemoTestFramework19\/DemoTestFramework19\/ExampleClass.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 10,
+      "value": "\"Hey User\""
+    }
+  ]
+}
